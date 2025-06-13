@@ -1,3 +1,7 @@
+📘 cpp-grade-analyzer
+This C++ project calculates grades, computes GPA, sorts student data, and analyzes grade distribution for a classroom setting.
+
+
 ✅ Features
 This program performs the following tasks:
 
