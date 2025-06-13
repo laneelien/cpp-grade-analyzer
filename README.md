@@ -1,19 +1,88 @@
-# cpp-grade-analyzer
-Code Calculates grades, grade point average, sorts data and calculates grade distribution for individual classes
+✅ Features
+This program performs the following tasks:
 
-THe current code does the Following:
-*imports students names scores and grades from a file (First Name, Last Name, MathHW1 Score, Math HW2 Score, Math HW3 Score, Math Exam1 Score, Math Exam 2 Score, Math Project Score, English Letter Grade, Chemistry Letter Grade, History Letter Grade, Engineering Safety Letter Grade)
-*Print's the imported data
-*calculate the course final score for math useg this Weight (40% for Assignments, %40% for exams and 10% for Project)
-*Assigns Letter grade for students using this policy (90-100: A, 80-89.99: B, 70-79.99: C, 60-69.99: D and <60: F)
-*Calculate the Grade distribution percentage for the student performance in the Math course (%As, %Bs, %Cs, %Ds and %Fs)
-*Calculates Semester Semester GPA based on grades from other courses
-*Sort the data based on the student Semester GPA Scores
-*Print the Sorted data with including the math score, course Grade, and Semester GPA
-*Print the course grade distribution
+📥 Import Student Data
+From a .csv file including the following format:
 
-Modify this and the data to ensure that the code is able to satisfy all the design requirements listed above.
+sql
+Copy
+Edit
+First Name, Last Name, HW1 Score, HW2 Score, HW3 Score, Exam1 Score, Exam2 Score, Project Score, English Grade, Chemistry Grade, History Grade, Engineering Grade
+🖨️ Print Imported Data
+Displays student information including homework, exam, and project scores.
 
-Solution Approach:
-1. Run the code and evaluate what features are included and identify the changes that need to be made to the code and the data file.
-2. Execute and test modification  until the objective ia achieved. Fee free to utilize AI Coding Assistants.
+🧮 Calculate Final Math Score
+Based on:
+
+40% Homework average
+
+40% Exam average
+
+20% Project score
+
+🅰️ Assign Final Letter Grade for Math
+Based on final score:
+
+90–100: A
+
+80–89.99: B
+
+70–79.99: C
+
+60–69.99: D
+
+<60: F
+
+📊 Compute Math Course Grade Distribution
+Displays the percentage of students in each grade category (A, B, C, D, F).
+
+🎓 Calculate Semester GPA
+GPA is computed based on:
+
+The student's final math letter grade
+
+Letter grades from 4 other courses (English, Chemistry, History, Engineering Safety)
+
+📈 Sort and Display Students by GPA
+Displays each student’s:
+
+Name
+
+Final Math Score
+
+Math Letter Grade
+
+Semester GPA
+
+🧾 Output Final Data
+Writes sorted results to a new .csv file.
+
+🔧 Design Requirements
+Ensure the solution satisfies all of the following:
+
+Imports student names, scores (float), and grades (char) from a structured CSV.
+
+Implements correct weight-based calculation of the final math score.
+
+Calculates GPA from five total courses.
+
+Sorts data by GPA in descending order.
+
+Outputs:
+
+Printed summary of imported and processed data
+
+Final sorted list with all calculated fields
+
+Grade distribution summary
+
+A new CSV with final results
+
+🛠️ Solution Approach
+Run the code and verify which features are working.
+
+Compare actual behavior with the design requirements above.
+
+Modify code and data until all objectives are satisfied.
+
+Use AI Coding Assistants (like ChatGPT) to speed up implementation and debugging.
